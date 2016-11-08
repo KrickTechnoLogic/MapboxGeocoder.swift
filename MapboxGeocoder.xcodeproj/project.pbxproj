@@ -64,6 +64,9 @@
 		DAF158861D03D81600829B35 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAF158841D03D81600829B35 /* Launch Screen.storyboard */; };
 		DD342B5619A140EE00219F77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342B5519A140EE00219F77 /* AppDelegate.swift */; };
 		DD342B5819A140EE00219F77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD342B5719A140EE00219F77 /* ViewController.swift */; };
+		DD4780521DD1540A00CFCE90 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4780511DD1540A00CFCE90 /* Contacts.framework */; };
+		DD4780541DD1541600CFCE90 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4780531DD1541600CFCE90 /* Contacts.framework */; };
+		DD4780561DD1542000CFCE90 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4780551DD1542000CFCE90 /* Contacts.framework */; };
 		DDC2295C1A36074F006BE405 /* MapboxGeocoder.h in Headers */ = {isa = PBXBuildFile; fileRef = DDC229581A36073B006BE405 /* MapboxGeocoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDC2295E1A360843006BE405 /* MBGeocoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC229591A36073B006BE405 /* MBGeocoder.swift */; };
 		DDC2471819A1C3B40054B0C0 /* MapboxGeocoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2470419A1C3B40054B0C0 /* MapboxGeocoder.framework */; };
@@ -183,6 +186,9 @@
 		DD342B5419A140EE00219F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD342B5519A140EE00219F77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD342B5719A140EE00219F77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD4780511DD1540A00CFCE90 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS2.2.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		DD4780531DD1541600CFCE90 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		DD4780551DD1542000CFCE90 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		DDC229581A36073B006BE405 /* MapboxGeocoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapboxGeocoder.h; sourceTree = "<group>"; };
 		DDC229591A36073B006BE405 /* MBGeocoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBGeocoder.swift; sourceTree = "<group>"; };
 		DDC2470419A1C3B40054B0C0 /* MapboxGeocoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapboxGeocoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +212,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4780541DD1541600CFCE90 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4780521DD1540A00CFCE90 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +261,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD4780561DD1542000CFCE90 /* Contacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +305,9 @@
 		92BDCB09F317945E14FB41A6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD4780551DD1542000CFCE90 /* Contacts.framework */,
+				DD4780531DD1541600CFCE90 /* Contacts.framework */,
+				DD4780511DD1540A00CFCE90 /* Contacts.framework */,
 				BD28BA6AC71BC018DA637F13 /* Pods_Example__Objective_C_.framework */,
 				0DD89B2793542F023B0AD20F /* Pods_Example__Swift_.framework */,
 				3DB78BEBFC3E833E90150B27 /* Pods_MapboxGeocoderMacTests.framework */,
